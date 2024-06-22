@@ -1,0 +1,32 @@
+/* OSCAR POCO */
+
+.header
+{
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: bolder;
+    font-size: large;
+    color: brown;
+}
+
+.game-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    width: 400px;
+}
+
+.grid img
+{
+    width: 100%;
+    height: auto;
+}
